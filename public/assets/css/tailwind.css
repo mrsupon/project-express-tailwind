@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.w-fixed {
+    @screen sm{
+        flex: 0 1 230px;
+        min-width: 230px;
+    }
+}
+        
+
+
+
